@@ -6,6 +6,7 @@ ENV ROUNDUP_VERSION v0.0.5
 RUN apk update \
     && apk add \
         'ncurses' \
+        'bash' \
     && apk add --virtual buildDeps \
         'curl' \
         'make' \
